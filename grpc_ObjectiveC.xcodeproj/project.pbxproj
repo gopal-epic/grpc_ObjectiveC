@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0A73268157EC9FAF26BB8D /* Pods_grpc_ObjectiveC_grpc_ObjectiveCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDBB92ADDFE2C031545B67A /* Pods_grpc_ObjectiveC_grpc_ObjectiveCUITests.framework */; };
 		4B9B967925382313008D9A05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B967825382313008D9A05 /* AppDelegate.swift */; };
 		4B9B967B25382313008D9A05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B967A25382313008D9A05 /* SceneDelegate.swift */; };
 		4B9B967D25382313008D9A05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B967C25382313008D9A05 /* ContentView.swift */; };
@@ -16,6 +17,8 @@
 		4B9B968825382314008D9A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9B968625382314008D9A05 /* LaunchScreen.storyboard */; };
 		4B9B969325382314008D9A05 /* grpc_ObjectiveCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B969225382314008D9A05 /* grpc_ObjectiveCTests.swift */; };
 		4B9B969E25382314008D9A05 /* grpc_ObjectiveCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B969D25382314008D9A05 /* grpc_ObjectiveCUITests.swift */; };
+		A66984E1F0B4872E124B27EF /* Pods_grpc_ObjectiveCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C0417DE64F89B117419364 /* Pods_grpc_ObjectiveCTests.framework */; };
+		CA680A20D8C49BE67D9B0788 /* Pods_grpc_ObjectiveC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3EC6F2A8E92688C9E3DAB3 /* Pods_grpc_ObjectiveC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44C0417DE64F89B117419364 /* Pods_grpc_ObjectiveCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_grpc_ObjectiveCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48BC76B724755D21439CB8A3 /* Pods-grpc_ObjectiveC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grpc_ObjectiveC.debug.xcconfig"; path = "Target Support Files/Pods-grpc_ObjectiveC/Pods-grpc_ObjectiveC.debug.xcconfig"; sourceTree = "<group>"; };
 		4B9B967525382313008D9A05 /* grpc_ObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grpc_ObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9B967825382313008D9A05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B9B967A25382313008D9A05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		4B9B969925382314008D9A05 /* grpc_ObjectiveCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grpc_ObjectiveCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9B969D25382314008D9A05 /* grpc_ObjectiveCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grpc_ObjectiveCUITests.swift; sourceTree = "<group>"; };
 		4B9B969F25382314008D9A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB3AD778878EAAD74AC0C0D3 /* Pods-grpc_ObjectiveCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grpc_ObjectiveCTests.debug.xcconfig"; path = "Target Support Files/Pods-grpc_ObjectiveCTests/Pods-grpc_ObjectiveCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B72218BCCDD51F78DBCD55BD /* Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests.release.xcconfig"; path = "Target Support Files/Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests/Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BC6A1DFDEF1650B5DB3ED7A0 /* Pods-grpc_ObjectiveC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grpc_ObjectiveC.release.xcconfig"; path = "Target Support Files/Pods-grpc_ObjectiveC/Pods-grpc_ObjectiveC.release.xcconfig"; sourceTree = "<group>"; };
+		CA322D6FF10C48B804E63BA8 /* Pods-grpc_ObjectiveCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grpc_ObjectiveCTests.release.xcconfig"; path = "Target Support Files/Pods-grpc_ObjectiveCTests/Pods-grpc_ObjectiveCTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF3EC6F2A8E92688C9E3DAB3 /* Pods_grpc_ObjectiveC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_grpc_ObjectiveC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5B74734027E214D34C1886 /* Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests.debug.xcconfig"; path = "Target Support Files/Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests/Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEDBB92ADDFE2C031545B67A /* Pods_grpc_ObjectiveC_grpc_ObjectiveCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_grpc_ObjectiveC_grpc_ObjectiveCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA680A20D8C49BE67D9B0788 /* Pods_grpc_ObjectiveC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66984E1F0B4872E124B27EF /* Pods_grpc_ObjectiveCTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0A73268157EC9FAF26BB8D /* Pods_grpc_ObjectiveC_grpc_ObjectiveCUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FB81F49F0EE48C926FC813F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF3EC6F2A8E92688C9E3DAB3 /* Pods_grpc_ObjectiveC.framework */,
+				FEDBB92ADDFE2C031545B67A /* Pods_grpc_ObjectiveC_grpc_ObjectiveCUITests.framework */,
+				44C0417DE64F89B117419364 /* Pods_grpc_ObjectiveCTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4B9B966C25382313008D9A05 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				4B9B969125382314008D9A05 /* grpc_ObjectiveCTests */,
 				4B9B969C25382314008D9A05 /* grpc_ObjectiveCUITests */,
 				4B9B967625382313008D9A05 /* Products */,
+				BD453C25D22E1524034B518E /* Pods */,
+				0FB81F49F0EE48C926FC813F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +166,20 @@
 			path = grpc_ObjectiveCUITests;
 			sourceTree = "<group>";
 		};
+		BD453C25D22E1524034B518E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48BC76B724755D21439CB8A3 /* Pods-grpc_ObjectiveC.debug.xcconfig */,
+				BC6A1DFDEF1650B5DB3ED7A0 /* Pods-grpc_ObjectiveC.release.xcconfig */,
+				ED5B74734027E214D34C1886 /* Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests.debug.xcconfig */,
+				B72218BCCDD51F78DBCD55BD /* Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests.release.xcconfig */,
+				AB3AD778878EAAD74AC0C0D3 /* Pods-grpc_ObjectiveCTests.debug.xcconfig */,
+				CA322D6FF10C48B804E63BA8 /* Pods-grpc_ObjectiveCTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B9B96A225382314008D9A05 /* Build configuration list for PBXNativeTarget "grpc_ObjectiveC" */;
 			buildPhases = (
+				5B59275ADC83F0D22A8DFA74 /* [CP] Check Pods Manifest.lock */,
 				4B9B967125382313008D9A05 /* Sources */,
 				4B9B967225382313008D9A05 /* Frameworks */,
 				4B9B967325382313008D9A05 /* Resources */,
+				D43B4BEA81C30B9DE9D83840 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B9B96A525382314008D9A05 /* Build configuration list for PBXNativeTarget "grpc_ObjectiveCTests" */;
 			buildPhases = (
+				88294CFA1790E2A394A3D00E /* [CP] Check Pods Manifest.lock */,
 				4B9B968A25382314008D9A05 /* Sources */,
 				4B9B968B25382314008D9A05 /* Frameworks */,
 				4B9B968C25382314008D9A05 /* Resources */,
@@ -181,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B9B96A825382314008D9A05 /* Build configuration list for PBXNativeTarget "grpc_ObjectiveCUITests" */;
 			buildPhases = (
+				952B364F2C308EBF0B1EDA3F /* [CP] Check Pods Manifest.lock */,
 				4B9B969525382314008D9A05 /* Sources */,
 				4B9B969625382314008D9A05 /* Frameworks */,
 				4B9B969725382314008D9A05 /* Resources */,
+				22BFB5E00D571049DFE9135C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,6 +309,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22BFB5E00D571049DFE9135C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests/Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests/Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests/Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B59275ADC83F0D22A8DFA74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-grpc_ObjectiveC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88294CFA1790E2A394A3D00E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-grpc_ObjectiveCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		952B364F2C308EBF0B1EDA3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D43B4BEA81C30B9DE9D83840 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-grpc_ObjectiveC/Pods-grpc_ObjectiveC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-grpc_ObjectiveC/Pods-grpc_ObjectiveC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-grpc_ObjectiveC/Pods-grpc_ObjectiveC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4B9B967125382313008D9A05 /* Sources */ = {
@@ -437,6 +586,7 @@
 		};
 		4B9B96A325382314008D9A05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48BC76B724755D21439CB8A3 /* Pods-grpc_ObjectiveC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +608,7 @@
 		};
 		4B9B96A425382314008D9A05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6A1DFDEF1650B5DB3ED7A0 /* Pods-grpc_ObjectiveC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +630,7 @@
 		};
 		4B9B96A625382314008D9A05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB3AD778878EAAD74AC0C0D3 /* Pods-grpc_ObjectiveCTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,6 +653,7 @@
 		};
 		4B9B96A725382314008D9A05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA322D6FF10C48B804E63BA8 /* Pods-grpc_ObjectiveCTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,6 +676,7 @@
 		};
 		4B9B96A925382314008D9A05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5B74734027E214D34C1886 /* Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +697,7 @@
 		};
 		4B9B96AA25382314008D9A05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B72218BCCDD51F78DBCD55BD /* Pods-grpc_ObjectiveC-grpc_ObjectiveCUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

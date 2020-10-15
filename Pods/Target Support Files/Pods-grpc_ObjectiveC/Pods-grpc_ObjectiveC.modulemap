@@ -1,0 +1,6 @@
+framework module Pods_grpc_ObjectiveC {
+  umbrella header "Pods-grpc_ObjectiveC-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,46 @@
+
+syntax = "proto3";
+
+option objc_class_prefix = "CI";
+
+// required for use with GKE gRPC services
+package content_impression;
+
+
+service ContentImpression {
+	rpc BatchLogs(BatchLogRequest) returns (BatchLogResponse) {}
+}
+
+
+message ImpressionLog {
+	string log_uuid4 = 1;
+	string content_recommendation_log_uuid4 = 2;
+	string session_uuid4 = 3;
+	string api_response_uuid4 = 4;
+	int32 event_date_utc = 5;
+	sint32 timezone_offset_minutes = 6;
+	string device_type = 7;
+	string device_version = 8;
+	string device_id = 9;
+	string user_agent = 10;
+	string platform = 11;
+	string app_version = 12;
+	int32 user_id = 13;
+	int32 current_account_id = 14;
+	string source_hierarchy = 15;
+	string source_metadata = 16;
+	string misc_metadata = 17;
+	int32 content_type = 18;
+	string content_id = 19;
+	int32 current_session_time_ms = 20;
+}
+
+message BatchLogRequest {
+	repeated ImpressionLog logs = 1;
+	bool debug = 2;
+}
+
+message BatchLogResponse {
+	bool success = 1;
+	string result = 2;
+}

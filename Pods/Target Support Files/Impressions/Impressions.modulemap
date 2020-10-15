@@ -1,0 +1,6 @@
+framework module Impressions {
+  umbrella header "Impressions-umbrella.h"
+
+  export *
+  module * { export * }
+}

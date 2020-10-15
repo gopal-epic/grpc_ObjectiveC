@@ -1,0 +1,94 @@
+PODS:
+  - "!ProtoCompiler (3.8.0)":
+    - Protobuf (~> 3.0)
+  - "!ProtoCompiler-gRPCPlugin (1.24.2)":
+    - "!ProtoCompiler (= 3.8.0)"
+    - gRPC-ProtoRPC (= 1.24.2)
+  - BoringSSL-GRPC (0.0.4):
+    - BoringSSL-GRPC/Implementation (= 0.0.4)
+    - BoringSSL-GRPC/Interface (= 0.0.4)
+  - BoringSSL-GRPC/Implementation (0.0.4):
+    - BoringSSL-GRPC/Interface (= 0.0.4)
+  - BoringSSL-GRPC/Interface (0.0.4)
+  - gRPC-Core (1.24.2):
+    - gRPC-Core/Implementation (= 1.24.2)
+    - gRPC-Core/Interface (= 1.24.2)
+  - gRPC-Core/Implementation (1.24.2):
+    - BoringSSL-GRPC (= 0.0.4)
+    - gRPC-Core/Interface (= 1.24.2)
+  - gRPC-Core/Interface (1.24.2)
+  - gRPC-ProtoRPC (1.24.2):
+    - gRPC-ProtoRPC/Legacy (= 1.24.2)
+    - gRPC-ProtoRPC/Legacy-Header (= 1.24.2)
+    - gRPC-ProtoRPC/Main (= 1.24.2)
+  - gRPC-ProtoRPC/Legacy (1.24.2):
+    - gRPC-ProtoRPC/Legacy-Header (= 1.24.2)
+    - gRPC-ProtoRPC/Main (= 1.24.2)
+    - gRPC-RxLibrary (= 1.24.2)
+    - gRPC/GRPCCore (= 1.24.2)
+    - Protobuf (~> 3.0)
+  - gRPC-ProtoRPC/Legacy-Header (1.24.2)
+  - gRPC-ProtoRPC/Main (1.24.2):
+    - gRPC-ProtoRPC/Legacy-Header (= 1.24.2)
+    - gRPC/Interface (= 1.24.2)
+    - Protobuf (~> 3.0)
+  - gRPC-RxLibrary (1.24.2):
+    - gRPC-RxLibrary/Implementation (= 1.24.2)
+    - gRPC-RxLibrary/Interface (= 1.24.2)
+  - gRPC-RxLibrary/Implementation (1.24.2):
+    - gRPC-RxLibrary/Interface
+  - gRPC-RxLibrary/Interface (1.24.2)
+  - gRPC/GRPCCore (1.24.2):
+    - gRPC-Core (= 1.24.2)
+    - gRPC-RxLibrary (= 1.24.2)
+    - gRPC/Interface (= 1.24.2)
+    - gRPC/Interface-Legacy (= 1.24.2)
+  - gRPC/Interface (1.24.2):
+    - gRPC/Interface-Legacy (= 1.24.2)
+  - gRPC/Interface-Legacy (1.24.2):
+    - gRPC-RxLibrary/Interface (= 1.24.2)
+  - Impressions (0.0.1):
+    - "!ProtoCompiler-gRPCPlugin (= 1.24.2)"
+    - Impressions/Messages (= 0.0.1)
+    - Impressions/Services (= 0.0.1)
+  - Impressions/Messages (0.0.1):
+    - "!ProtoCompiler-gRPCPlugin (= 1.24.2)"
+    - Protobuf
+  - Impressions/Services (0.0.1):
+    - "!ProtoCompiler-gRPCPlugin (= 1.24.2)"
+    - gRPC-ProtoRPC
+    - Impressions/Messages
+  - Protobuf (3.13.0)
+
+DEPENDENCIES:
+  - Impressions (from `.`)
+
+SPEC REPOS:
+  trunk:
+    - "!ProtoCompiler"
+    - "!ProtoCompiler-gRPCPlugin"
+    - BoringSSL-GRPC
+    - gRPC
+    - gRPC-Core
+    - gRPC-ProtoRPC
+    - gRPC-RxLibrary
+    - Protobuf
+
+EXTERNAL SOURCES:
+  Impressions:
+    :path: "."
+
+SPEC CHECKSUMS:
+  "!ProtoCompiler": 7fc49078ec544d0347264496f6cd09b8132536b5
+  "!ProtoCompiler-gRPCPlugin": 0f3059def9dd4385bda820ff94c0bc70e2abdd83
+  BoringSSL-GRPC: b8d2e9fca6d3870aec81ee7d583869caec2a6076
+  gRPC: ddd0f5e871b1a40604fe15eaafea6de07f8d4c37
+  gRPC-Core: 5ca379163f100dfbc55214942ab7d23423513a17
+  gRPC-ProtoRPC: ce44dde4815d1cabf5f7ba1be979253e8d355c56
+  gRPC-RxLibrary: b5ee50de3fafaecb2176194f73abf927026a402a
+  Impressions: 8539bd4b15ca8ab5b738d671186d79697ec0cc35
+  Protobuf: 3dac39b34a08151c6d949560efe3f86134a3f748
+
+PODFILE CHECKSUM: dad9ea906d45820ed4e0bf4c76ad55df7f95496e
+
+COCOAPODS: 1.9.3
